@@ -17,7 +17,8 @@ from pathlib import Path
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+# BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # Quick-start development settings - unsuitable for production
@@ -48,7 +49,7 @@ INSTALLED_APPS = [
     'comments',
     'affirmations',
     'rest_framework',
-    'SEI-Project-4-nightdaze-copy'
+    'SEI-Project-4-nightdaze_copy',
 ]
 
 MIDDLEWARE = [
@@ -80,7 +81,7 @@ ROOT_URLCONF = 'project.urls'
 TEMPLATES = [
       {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'client')
+        'DIRS': [os.path.join(BASE_DIR, 'frontend')
                 ]  #Look, we have added the root folder of frontend here
         ,
         'APP_DIRS': True,
@@ -160,7 +161,7 @@ AUTH_USER_MODEL = 'jwt_auth.User' # to let django know to user our custom user a
 CORS_ORIGIN_ALLOW_ALL = True
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "client", "build", "static"),
+    os.path.join(BASE_DIR, "frontend", "build", "static"),
 )
 
 django_on_heroku.settings(locals())
