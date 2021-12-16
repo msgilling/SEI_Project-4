@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'comments',
     'affirmations',
     'rest_framework',
-    
+    'SEI-Project-4-nightdaze-copy'
 ]
 
 MIDDLEWARE = [
@@ -160,7 +160,7 @@ AUTH_USER_MODEL = 'jwt_auth.User' # to let django know to user our custom user a
 CORS_ORIGIN_ALLOW_ALL = True
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'client', "build", "static"),
+    os.path.join(BASE_DIR, "client", "build", "static"),
 )
 
 django_on_heroku.settings(locals())
