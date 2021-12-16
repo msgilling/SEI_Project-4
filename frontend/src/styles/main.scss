@@ -1,0 +1,304 @@
+section {
+  font-family: 'Poppins', sans-serif;
+  
+}
+// ! ***** NAV BAR STYLING *************************************
+#nav-bg {
+  // background: linear-gradient(#33224e,#503779, #d8c1e7);
+  // background: #3e295f;
+  background: #b5bbf1;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  position: sticky;
+  width: 100%;
+  
+}
+
+.navbar-collapse{
+  justify-content: flex-end;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#icons {
+  font-size: 2rem; 
+  color: white;
+  margin-right: 8px;
+}
+
+#uploadicon {
+  color: white;
+}
+// ! ***** HOME PAGE STYLING ************************************
+
+.home-page-nd {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+img#text-logo {
+  margin-top: 3px;
+  align-self: center;
+}
+#iphoneapp-card {
+  align-self: center;
+}
+
+.home-section {
+  margin-top: 15px;
+}
+.welcome-title {
+  font-size: 25px;
+}
+.welcome-card.card {
+  max-width: 390px;
+  height: 635px;
+}
+
+.home-text {
+  margin-bottom: 20px;
+}
+
+.home-text-logo {
+  // width: 100%;
+  max-width: 400px;
+  // height: auto;
+}
+
+#logo-text-home {
+  margin-left: 10px;
+}
+
+.home-footers {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+#githublink {
+  color: grey;
+}
+
+// ! ***** REGISTER STYLING *************************************
+.register-form.card {
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  // padding: 10px;
+}
+
+.register-form-field {
+  display: flex;
+  margin-top: 20px;
+}
+
+
+// ! ***** LOGIN STYLING *************************************
+.login-form.card {
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  // padding: 10px;
+}
+
+.login-form-field {
+  margin-top: 25px;
+}
+
+div.welcome-title.card-header {
+  background-color: #b5bbf1;
+  color: white;
+}
+img#text-logo-login {
+  margin-top: 3px;
+  
+  align-self: center;
+
+}
+#login-welcome {
+  font-size: 25px;
+}
+
+// ! ***** CARD STYLING *************************************
+
+section#index-section.section {
+  margin-top: 20px;
+}
+
+// ! ***** CARD STYLING *************************************
+
+img.card-img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#image-card {
+  border: 1px solid white;
+  background-color: #b5bbf1;
+  border-top-left-radius: 26px;
+  border-top-right-radius: 26px;
+  margin-bottom: 20px;
+}
+#image-card-aff {
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+#aff-card-logo {
+  margin-bottom: 10px;
+}
+
+#footer-aff {
+  background-color: #b5bbf1;
+}
+
+.image-footer {
+  padding: 0px 10px 10px 10px;
+  color: white;
+}
+
+.card-title {
+  color: white;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+#heart-icons {
+  font-size: 1.5rem;
+  color: white;
+  float: right;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+#comment-icons {
+  font-size: 1.5rem;
+  color: white;
+  float: right;
+  margin-top: -5px;
+}
+
+.content {
+  margin-top: 40px;
+}
+
+
+
+
+// ! ***** IMAGE SHOW STYLING *************************************
+
+#image-show-page {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+#delete-image-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.delete-image-btn {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.edit-image-btn {
+  margin-bottom: 10px;
+}
+
+
+// ! ***** COMMENT FORM STYLING *************************************
+
+.comment-title {
+  font-size: 18px;
+  
+}
+div.comment-title.card-header {
+  background-color: #b5bbf1;
+  color: white;
+}
+
+.delete-comment-btn {
+  height: 30px;
+}
+.delete-comment-btn p {
+  font: small-caption;
+}
+
+button.delete-comment-btn {
+  border-radius: 30px;
+  // background-color:  #3e295f;
+  border: 1px solid black;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+// ! ***** USER PROFILE STYLING *************************************
+
+.userprofile-show.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  flex-direction: column;
+}
+
+img.profile-image {
+  // border-radius: 30px 30px 30px;
+  border: 5px solid #b5bbf1;
+  height: 170px;
+  width: 170px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+div.user-bio.col {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.username-title {
+  font-size: 24px;
+  font-weight: bold;
+  
+}
+.pronouns-text {
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 10px;
+}
+.about-me-text {
+  font-size: 16px;
+  // color: grey;
+}
+
+#image-card-profile {
+  border: 1px solid white;
+  border-top-left-radius: 26px;
+  border-top-right-radius: 26px;
+  border-bottom-right-radius: 26px;
+  border-bottom-left-radius: 26px;
+  margin-bottom: 20px;
+  background-color: none;
+}
+
+#userprofile-card-img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+#userprofile-card-show {
+  margin-top: 20px;
+}

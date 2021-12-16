@@ -1,0 +1,191 @@
+[
+{
+  "model": "jwt_auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$yHB12FTV4ML994DqvRKzsR$8T8/CyLN3ZPczvZogmvL53Klu4wWlRIVhcO7V0r5OnU=",
+    "last_login": "2021-12-02T17:22:44.013Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-12-02T17:20:30.913Z",
+    "email": "admin@email.com",
+    "profile_image": "https://www.pngall.com/wp-content/uploads/5/Profile-PNG-File.png",
+    "about_me": "",
+    "pronouns": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "Django_123",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "marling",
+    "first_name": "Ree",
+    "last_name": "Gilling",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-12-02T17:36:12Z",
+    "email": "ree@email.com",
+    "profile_image": "https://i.pinimg.com/564x/57/80/7c/57807c97fcd9e292a91182d5541802c7.jpg",
+    "about_me": "just living life, one sky at a day",
+    "pronouns": "she/her",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pass_word",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "goodsoup",
+    "first_name": "Mitch",
+    "last_name": "W",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-02T17:43:57Z",
+    "email": "mitch@email.com",
+    "profile_image": "https://www.pngall.com/wp-content/uploads/5/Profile-PNG-File.png",
+    "about_me": "good soup",
+    "pronouns": "he/him",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$QoPvOHGnTedhPGzSwEClTh$1xvltWGu4VpAcwOsaIHr/mvIln17E1c7XavhF0HZUIo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "mochimochi",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-03T09:06:12.974Z",
+    "email": "mochi@email.com",
+    "profile_image": "https://www.pngall.com/wp-content/uploads/5/Profile-PNG-File.png",
+    "about_me": "",
+    "pronouns": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$OeDCinvmDws5maNt7XXKZs$QKmXf/NzwdiCdD/375p6AJXwSSbVcd93t5OSxD9ZCek=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "tofu",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-03T10:31:00.529Z",
+    "email": "tofu@email.com",
+    "profile_image": "https://www.pngall.com/wp-content/uploads/5/Profile-PNG-File.png",
+    "about_me": "35mm only",
+    "pronouns": "they/them",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$cOwGt2RLov6WqVPXrVAYCY$SeaNT07Sb3JMEmz7hXpJ4wXS1JIIWW9I3F6lBBaKXjU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "nekoneko",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-03T10:47:40.055Z",
+    "email": "neko@email.com",
+    "profile_image": "https://www.pngall.com/wp-content/uploads/5/Profile-PNG-File.png",
+    "about_me": "maneki neko",
+    "pronouns": "they/them",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$nsHHA0anTx2CKMAQaWq6Yw$y8vIR2FIlyzlFCDGrSv+B5lqy2+zjIronaYhWXd00Fw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "neko",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-03T10:48:30.808Z",
+    "email": "neko1@email.com",
+    "profile_image": "https://www.pngall.com/wp-content/uploads/5/Profile-PNG-File.png",
+    "about_me": "maneki neko",
+    "pronouns": "they/them",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$coJCsAMRUo2yvFzoo8Ytdm$G05j8gTYbee+5IYCO8oJ+ft+4dh/iBOPQRBZOX8RqBs=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "wanderlust92",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-03T12:22:44.628Z",
+    "email": "wander@email.com",
+    "profile_image": "https://i.pinimg.com/564x/57/80/7c/57807c97fcd9e292a91182d5541802c7.jpg",
+    "about_me": "yoooooo",
+    "pronouns": "they/them",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$icg2IXrTbs80ZuoZvDN3jL$nWmEr7x0vKOLDRzU+IptnCmFEspRq24KV3WKBsOpkaI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "mxrl",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-03T13:16:35.951Z",
+    "email": "mxrl@email.com",
+    "profile_image": "https://i.pinimg.com/564x/57/80/7c/57807c97fcd9e292a91182d5541802c7.jpg",
+    "about_me": "",
+    "pronouns": "",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
