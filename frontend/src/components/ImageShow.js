@@ -19,7 +19,7 @@ const ImageShow = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const { data } = await axios.get(`/api/images/${id}`)
+        const { data } = await axios.get(`/api/images/${id}/`)
         setImage(data)
         setComments(data.comment_set)
         setOwner(data.owner)
@@ -54,7 +54,7 @@ const ImageShow = () => {
       const index = comments.indexOf(comment)
       const newCommentArray = [...comments.splice(index, 1)]
       setComments([...comments])
-      history.push(`/images/${id}`)
+      history.push(`/images/${id}/`)
     } catch (err) {
       console.log(err)
     }
