@@ -15,7 +15,7 @@ const ImageCard = ({ id, image, caption }) => {
         <Link to={`/images/${id}`}>
 
           <Card.Img src={image} alt={caption} />
-          <Link to={`/api/userprofile/${id}`}>
+          <Link to={`/api/userprofile/${id}/`}>
             <Card.Title className="card-title">{}</Card.Title>
           </Link>
           <Card.Text className="image-footer">{caption}
