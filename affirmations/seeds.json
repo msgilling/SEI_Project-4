@@ -3,70 +3,70 @@
   "model": "affirmations.affirmation",
   "pk": 1,
   "fields": {
-    "text": "If everything was easy you'd be bored."
+    "text": "If everything was easy you'd be bored. 🥱"
   }
 },
 {
   "model": "affirmations.affirmation",
   "pk": 2,
   "fields": {
-    "text": "This is your Daily Reminder: you've got this, you're gonna kill it and have the best day!"
+    "text": "This is your Daily Reminder: you've got this, you're gonna kill it and have the best day! 🤩"
   }
 },
 {
   "model": "affirmations.affirmation",
   "pk": 3,
   "fields": {
-    "text": "We are all works in progress."
+    "text": "We are all works in progress. 🌱"
   }
 },
 {
   "model": "affirmations.affirmation",
   "pk": 4,
   "fields": {
-    "text": "Even when it’s grey outside there’s blue beyond the clouds."
+    "text": "Even when it’s grey outside there’s blue beyond the clouds. ⛅️"
   }
 },
 {
   "model": "affirmations.affirmation",
   "pk": 5,
   "fields": {
-    "text": "Keep your face always toward the sunshine—and shadows will fall behind you."
+    "text": "Keep your face always toward the sunshine—and shadows will fall behind you. ☀️"
   }
 },
 {
   "model": "affirmations.affirmation",
   "pk": 6,
   "fields": {
-    "text": "Setting goals is the first step in turning the invisible into the visible."
+    "text": "Setting goals is the first step in turning the invisible into the visible. 🥅"
   }
 },
 {
   "model": "affirmations.affirmation",
   "pk": 7,
   "fields": {
-    "text": "If you can stay positive in a negative situation, you win."
+    "text": "If you can stay positive in a negative situation, you win. ✨"
   }
 },
 {
   "model": "affirmations.affirmation",
   "pk": 8,
   "fields": {
-    "text": "Try to be a rainbow in someone’s cloud."
+    "text": "Try to be a rainbow in someone’s cloud. 🌈"
   }
 },
 {
   "model": "affirmations.affirmation",
   "pk": 9,
   "fields": {
-    "text": "No act of kindness, no matter how small, is ever wasted."
+    "text": "No act of kindness, no matter how small, is ever wasted. 🌻"
   }
 },
 {
   "model": "affirmations.affirmation",
   "pk": 10,
   "fields": {
-    "text": "Today is a good day to try."
+    "text": "Today is a good day to try. 🪴"
   }
 }
 ]
