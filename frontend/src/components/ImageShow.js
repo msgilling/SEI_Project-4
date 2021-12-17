@@ -33,7 +33,7 @@ const ImageShow = () => {
 
   useEffect(() => {
     const getData = async () => {
-      const response = await axios.get(`/api/auth/${id}`)
+      const response = await axios.get(`/api/auth/${id}/`)
       console.log('response', response)
     }
     getData()
