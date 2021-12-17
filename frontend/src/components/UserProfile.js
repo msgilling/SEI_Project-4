@@ -17,7 +17,7 @@ const UserProfile = () => {
 
   useEffect(() => {
     const getUserInfo = async () => {
-      const { data } = await axios.get(`/api/auth/${id}`)
+      const { data } = await axios.get(`/api/auth/${id}/`)
     
       setUserProfiles(data)
       setUserUploads(data.Uploads)
