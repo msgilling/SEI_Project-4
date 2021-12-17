@@ -12,7 +12,7 @@ const ImageCard = ({ id, image, caption }) => {
 
     <div key={id}>
       <Card style={{ width: '19rem' }} id="image-card">
-        <Link to={`/images/${id}`}>
+        <Link to={`/images/${id}/`}>
 
           <Card.Img src={image} alt={caption} />
           <Link to={`/api/userprofile/${id}/`}>
