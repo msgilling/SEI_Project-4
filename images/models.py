@@ -4,7 +4,6 @@ from django.conf import settings
 
 
 class Image(models.Model):
-    title = models.CharField(max_length=10, default=None, null=True)
     caption = models.CharField(max_length=500, default=None)
     image = models.CharField(max_length=500, default=None)
     owner = models.ForeignKey(
