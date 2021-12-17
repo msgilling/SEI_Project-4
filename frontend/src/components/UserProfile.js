@@ -62,7 +62,7 @@ const UserProfile = () => {
           return (
             <div key={id} className="column is-flex is-justify-content-center">
               <Card style={{ width: '12rem' }} id="image-card-profile" className="columns-is-one-quarter">
-                <Link to={`/images/${userUpload.id}`}>
+                <Link to={`/images/${userUpload.id}/`}>
                   
                   <Card.Img src={userUpload.image} alt={userUpload.caption} id="userprofile-card-img" />
                 
