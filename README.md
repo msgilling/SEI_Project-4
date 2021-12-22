@@ -11,19 +11,18 @@ My final project as a Software Engineer Immersive Student at General Assembly wa
 I deployed the website using Heroku, which is a free server that sleeps when it is not in use. Please allow it a minute or two to wake up and get going! 💤
 
 To explore please use these credentials to play around the site: 
-<ul>
-  <li>Email = panda@email.com</li>
-  <li>PW = Django_123</li>
-</ul>
+- Email = panda@email.com
+- PW = Django_123
+
 
 ![Home page image](./frontend/src/assets/homepage.png)
 
 ## Brief
 To create a full-stack web application using a relational Python, Django and SQL database with a React front-end. The app should contain CRUD functionality and contain several models and relationship types.
-### Timeframe: 8 days
+#### Timeframe: 8 days
 
 ## Technologies
-**Backend:**
+### Backend:
 - Python
 - Django
 - Django REST Framework
