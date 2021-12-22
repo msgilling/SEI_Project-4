@@ -15,3 +15,5 @@ To explore please use these credentials to play around the site:
   <li>Email = panda@email.com</li>
   <li>PW = Django_123</li>
 </ul>
+
+<img src="../frontend/src/assets/homepage.png">
