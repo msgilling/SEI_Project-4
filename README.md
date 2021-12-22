@@ -6,13 +6,3 @@ My final project as a Software Engineer Immersive Student at General Assembly wa
 
 <i>‘night daze’</i> was inspired by my own love for Instagram, combined with the sky and positivity. As a user, when you register and log in, you get a randomised daily affirmation before viewing the timeline. 
 
-<h3>Find the deployed app here: <a href="https://night-daze.herokuapp.com/">night daze</a></h3>
-I deployed the website using Heroku, which is a free server that sleeps when it is not in use. Please allow it a minute or two to wake up and get going! 💤
-
-To explore please use these credentials to play around the site: 
-<ul>
-  <li>Email = panda@email.com</li>
-  <li>PW = Django_123</li>
-</ul>
-
-<img src="../frontend/src/assets/homepage.png">
