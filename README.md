@@ -17,3 +17,5 @@ To explore please use these credentials to play around the site:
 </ul>
 
 <img src="../frontend/src/assets/homepage.png">
+
+![This is an image](./frontend/src/assets/homepage.png)
