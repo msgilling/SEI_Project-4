@@ -1,4 +1,4 @@
-# sei-project-4
+# sei-project-4 - night daze app ⛅️
 # Overview
 My final project as a Software Engineer Immersive Student at General Assembly was to create a full-stack application with a React front-end and Django back-end. It was a solo project where I made sure to focus on it being mobile responsive first.
 
