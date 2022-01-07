@@ -18,6 +18,7 @@ To explore please use these credentials to play around the site:
 
 ## Brief
 To create a full-stack web application using a relational Python, Django and SQL database with a React front-end. The app should contain CRUD functionality and contain several models and relationship types.
+
 #### Timeframe: 8 days
 
 ## Technologies
@@ -119,6 +120,17 @@ Profile page and affirmations page styling in mobile view:
 - When registering or logging in, the Network tab in the Google Chrome Dev Tools gives the message “The CSRF token invalid” making users unable to do either. Emptying cookies from the cache fixes this temporarily.
 - Error handling on the forms has not been fully built in.
 - Navbar does not stay in view when scrolling.
+
+## Challenges 
+This was my first time building a full-stack app independently, so a huge challenge was relying on my own knowledge and problem solving by myself as much as possible.
+We only learned the basics of Python and Django so I found the backend quite difficult to get used to and found when doing stuff on the frontend I realised I didn’t set up the backend how I initially wanted.
+
+## Wins
+I’m really happy with the styling and glad I took the time to do it as I went along. It’s very simple and I think that helps it look professional yet fun.
+Having a working MVP in the timeframe given.
+Having really detailed notes on Django and Python was really beneficial on setting up, as I wasn’t very used to the process.
+I decided to do our final project solo to test my ability and see how far I’ve come since the start of the course. I’m super happy I was able to build a full-stack app and it has given me tremendous confidence in how far I’ve progressed.
+
 
 ## Key Learnings
 I am really glad that I pushed myself to rise to the challenge to complete a full-stack app by myself as I feel like this project has really helped me gain a much stronger understanding as a developer.
