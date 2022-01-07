@@ -89,10 +89,18 @@ On the backend, I have three models: Images, User and Comments. I created these 
 Example model:
 ![models](./frontend/src/assets/models.png)
 
+My jwt_auth folder deals with authentication such as register, log in and user model. I built the User model in models.py, using an AbstractUser. This enabled me to add more requirements for my users to fill out such as profile image and pronouns.
+
+![usermodels](./frontend/src/assets/usermodels.png)
+
 ## Frontend:
 The Frontend was built using React Hooks. I began building it after building my Backend but did go back to tweak on my Backend when I had issues displaying information on my Frontend. I used Axios for the requests from the back-end, creating an API request library that imported into each specified page. 
 
+![pagenav](./frontend/src/assets/pagenav.png)
+
 I used react-router-dom for my page navigation in React. I initially started using Bulma, as having previously used it on some other projects but decided to give React-Bootstrap a go as it seemed a lot more lightweight and enabled me to style through CSS quite easily.
+
+![navbootstrap](./frontend/src/assets/navbootstrap.png)
 
 I made sure to style the pages as I created them, to prevent the need to style it and work it all out towards the end of the project. This was a relatively smooth process as I had designed the logo, picked the fonts and thought of the colour palette in the planning stages of the project, knowing I wanted a calming theme.
 
