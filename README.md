@@ -1,6 +1,6 @@
 # sei-project-4 - night daze app ⛅️
 # Overview
-My final project as a Software Engineer Immersive Student at General Assembly was to create a full-stack application with a React front-end and Django back-end. It was a solo project where I made sure to focus on it being mobile responsive first.
+My final project as a Software Engineer Immersive Student at General Assembly was to create a full-stack application with a React frontend and Django back-end. It was a solo project where I made sure to focus on it being mobile responsive first.
 
 *‘night daze’* is a sky themed social media app where users can upload photos of the sky to share with one another from their devices. Users can register and upload a custom profile image then upload, edit and delete their posts, comment on each other's images and view their own profile to admire their own collection.
 
@@ -17,7 +17,7 @@ To explore please use these credentials to play around the site:
 ![Home page image](./frontend/src/assets/homepage.png)
 
 ## Brief
-To create a full-stack web application using a relational Python, Django and SQL database with a React front-end. The app should contain CRUD functionality and contain several models and relationship types.
+To create a full-stack web application using a relational Python, Django and SQL database with a React frontend. The app should contain CRUD functionality and contain several models and relationship types.
 
 #### Timeframe: 8 days
 
@@ -29,7 +29,7 @@ To create a full-stack web application using a relational Python, Django and SQL
 - PostgreSQL
 
 
-### Front-end:
+### Frontend:
 - React.js
 - Axios
 - React-Bootstrap
