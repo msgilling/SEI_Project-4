@@ -126,7 +126,7 @@ Profile page and affirmations page styling in mobile view:
 - We only learned the basics of Python and Django so I found the backend quite difficult to get used to and found when doing stuff on the frontend I realised I didn’t set up the backend how I initially wanted.
 
 ## Wins
-- I’m really happy with the styling and glad I took the time to do it as I went along. It’s very simple and I think that helps it look professional yet fun.
+- I’m really glad I pushed myself to try a new CSS Framework (React-Boostrap) as I found I really enjoyed working with it. I am happy with the styling and glad I took the time to do it as I went along. It’s very simple and I think that helps it look professional yet fun.
 - Having a working MVP in the timeframe given.
 - Having really detailed notes on Django and Python was really beneficial on setting up, as I wasn’t very used to the process.
 - I decided to do our final project solo to test my ability and see how far I’ve come since the start of the course. I’m super happy I was able to build a full-stack app and it has given me tremendous confidence in how far I’ve progressed.
