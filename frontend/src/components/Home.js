@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, Button } from 'react-bootstrap'
 import NIGHTDAZEAPP from '../assets/NightNDaze.png'
 import TEXTLOGO1 from '../assets/TEXTLOGO1.PNG'
-import { Link } from 'react-router-dom'
+
 
 
 const Home = () => {
@@ -29,7 +29,7 @@ const Home = () => {
           </div>
           {/* <hr/> */}
           <div className="home-footers">
-            Made by &nbsp;<Link exact to="https://github.com/msgilling" id="githublink">msgilling</Link>
+            Made by &nbsp;<a href="https://github.com/msgilling" id="githublink">msgilling</a>
           </div>
         </Card.Body>
       </Card>
